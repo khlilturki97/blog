@@ -16,3 +16,13 @@ button{
   margin: 2px;
 }
 
+.btn-danger + div {
+  text-align: right;
+  display: inline-block;
+  width: calc(100% - 190px);
+}
+
+.btn-danger + div .btn-danger {
+  display: inline-block;
+}
+
